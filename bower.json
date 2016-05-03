@@ -1,0 +1,31 @@
+{
+  "name": "gs-element-starter",
+  "version": "1.0.7",
+  "authors": [
+    "AlvarezAriel"
+  ],
+  "description": "A project example for generating gobstones elements.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "gobstones"
+  ],
+  "main": "gs-element-starter.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0",
+    "page": "visionmedia/page.js#~1.6.4",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+    "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  }
+}
