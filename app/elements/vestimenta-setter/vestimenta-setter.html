@@ -1,0 +1,38 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="vestimenta-setter">
+  <template>
+    <style>
+    </style>
+    <div>
+      <label for="rojas">Rojas:</label><input id="rojas" value="{{rojas::input}}"><br>
+	    <label for="negras">Negras:</label><input id="negras" value="{{negras::input}}"><br>  
+	    <label for="azules">Azules:</label><input id="azules" value="{{azules::input}}"><br>  
+	    <label for="verdes">Verdes:</label><input id="verdes" value="{{verdes::input}}"><br>  
+	    <h3>{{rojas}}</h3><br>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'vestimenta-setter',
+      properties: {
+        rojas: {
+          type: String,
+          value: ' '
+        },
+        negras: {
+          type: String,
+          value: ' '
+        },
+        azules: {
+          type: String,
+          value: ' '
+        },
+        verdes: {
+          type: String,
+          value: ' '
+        }
+      }
+    });
+  </script>
+</dom-module>
